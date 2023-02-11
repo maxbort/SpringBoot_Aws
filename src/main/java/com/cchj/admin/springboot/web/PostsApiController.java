@@ -40,4 +40,11 @@ public class PostsApiController {
         return postsService.findById(id);
     }
 
+    @DeleteMapping("/api/v1/posts/{id}") // Spring MVC 애플리케이션의 HTTP DELETE 메소드에 대한 속기 주석
+                                            // 특정 URI로 전송된 HTTP DELETE 요청 처리 시 사용
+    public Long delete(@PathVariable Long id){
+        postsService.delete(id);
+        return id;
+    }
+
 }
