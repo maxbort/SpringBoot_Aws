@@ -21,7 +21,6 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 // @Controller와 @ResponseBdoy가 결합된 어노테이션.
 // @Controller와 달리 컨트롤러 클래스의 각 메서드마다 @ResponseBody를 추가할 필요가 없다.
-
 public class PostsApiController {
 
     private final PostsService postsService;
