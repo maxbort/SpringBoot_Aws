@@ -2,7 +2,6 @@ package com.cchj.admin.springboot.domains.posts;
 
 import com.cchj.admin.springboot.domain.posts.Posts;
 import com.cchj.admin.springboot.domain.posts.PostsRepository;
-import javafx.geometry.Pos;
 import org.junit.After;
 import org.junit.Test;
 import org.junit.runner.RunWith;
